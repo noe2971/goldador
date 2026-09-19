@@ -38,13 +38,13 @@ jobs:
               - 'meta/synchronizers/src/_constants.py'
               - 'meta/synchronizers/src/abstract.py'
             codeowners:
-              - 'meta/synchronizers/codeowners.py'
+              - 'meta/synchronizers/src/codeowners.py'
             slack:
-              - 'meta/synchronizers/slack.py'
+              - 'meta/synchronizers/src/slack.py'
             google-drive:
-              - 'meta/synchronizers/google_drive.py'
+              - 'meta/synchronizers/src/google_drive.py'
             infra:
-              - 'meta/synchronizers/infra.py'
+              - 'meta/synchronizers/src/infra.py'
             iac:
               - 'infra/**'
 
